@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": 0,
+    "name": "Essential Health Max",
+    "category": "Health",
+    "warranty": "1 Year",
+    "stock": 94,
+    "price": 170.49,
+    "brand": "GlobalGoods",
+    "color": "Green",
+    "updated": "8/13/2025"
+  },
+  {
+    "id": 1,
+    "name": "Vintage Decor Classic",
+    "category": "Home Decor",
+    "warranty": "6 Months",
+    "stock": 91,
+    "price": 230.32,
+    "brand": "GlobalGoods",
+    "color": "Yellow",
+    "updated": "8/11/2025"
+  },
+  {
+    "id": 2,
+    "name": "SmartGadget Pro",
+    "category": "MaxGadgets",
+    "warranty": "2 Years",
+    "stock": 19,
+    "price": 233.49,
+    "brand": "TechCorp",
+    "color": "Green",
+    "updated": "8/3/2025"
+  },
+  {
+    "id": 3,
+    "name": "Vintage Decor Classic",
+    "category": "Home Decor",
+    "warranty": "6 Months",
+    "stock": 63,
+    "price": 233.78,
+    "brand": "GlobalGoods",
+    "color": "Blue",
+    "updated": "8/5/2025"
+  },
+  {
+    "id": 4,
+    "name": "UltraTech Headphones",
+    "category": "Electronics",
+    "warranty": "1 Year",
+    "stock": 58,
+    "price": 242.38,
+    "brand": "GlobalGoods",
+    "color": "Blue",
+    "updated": "8/7/2025"
+  },
+  {
+    "id": 5,
+    "name": "Vintage Decor Classic",
+    "category": "Home Decor",
+    "warranty": "6 Months",
+    "stock": 39,
+    "price": 245.92,
+    "brand": "GlobalGoods",
+    "color": "Blue",
+    "updated": "8/12/2025"
+  },
+  {
+    "id": 6,
+    "name": "Essential Health Max",
+    "category": "Health",
+    "warranty": "1 Year",
+    "stock": 81,
+    "price": 152.03,
+    "brand": "GlobalGoods",
+    "color": "Red",
+    "updated": "8/5/2025"
+  },
+  {
+    "id": 7,
+    "name": "Fashion Plus Wear",
+    "category": "Fashion",
+    "warranty": "6 Months",
+    "stock": 84,
+    "price": 248.04,
+    "brand": "FashionHub",
+    "color": "Blue",
+    "updated": "8/14/2025"
+  },
+  {
+    "id": 8,
+    "name": "Fashion Plus Wear",
+    "category": "Fashion",
+    "warranty": "6 Months",
+    "stock": 99,
+    "price": 160.29,
+    "brand": "FashionHub",
+    "color": "Blue",
+    "updated": "8/4/2025"
+  },
+  {
+    "id": 9,
+    "name": "Vintage Decor Classic",
+    "category": "Home Decor",
+    "warranty": "6 Months",
+    "stock": 64,
+    "price": 177.28,
+    "brand": "GlobalGoods",
+    "color": "Blue",
+    "updated": "8/3/2025"
+  }
+]
