@@ -1,112 +1,452 @@
 [
-  {
-    "id": 0,
-    "name": "Essential Health Max",
-    "category": "Health",
-    "warranty": "1 Year",
-    "stock": 94,
-    "price": 170.49,
-    "brand": "GlobalGoods",
-    "color": "Green",
-    "updated": "8/13/2025"
-  },
-  {
-    "id": 1,
-    "name": "Vintage Decor Classic",
-    "category": "Home Decor",
-    "warranty": "6 Months",
-    "stock": 91,
-    "price": 230.32,
-    "brand": "GlobalGoods",
-    "color": "Yellow",
-    "updated": "8/11/2025"
-  },
-  {
-    "id": 2,
-    "name": "SmartGadget Pro",
-    "category": "MaxGadgets",
-    "warranty": "2 Years",
-    "stock": 19,
-    "price": 233.49,
-    "brand": "TechCorp",
-    "color": "Green",
-    "updated": "8/3/2025"
-  },
-  {
-    "id": 3,
-    "name": "Vintage Decor Classic",
-    "category": "Home Decor",
-    "warranty": "6 Months",
-    "stock": 63,
-    "price": 233.78,
-    "brand": "GlobalGoods",
-    "color": "Blue",
-    "updated": "8/5/2025"
-  },
-  {
-    "id": 4,
-    "name": "UltraTech Headphones",
-    "category": "Electronics",
-    "warranty": "1 Year",
-    "stock": 58,
-    "price": 242.38,
-    "brand": "GlobalGoods",
-    "color": "Blue",
-    "updated": "8/7/2025"
-  },
-  {
-    "id": 5,
-    "name": "Vintage Decor Classic",
-    "category": "Home Decor",
-    "warranty": "6 Months",
-    "stock": 39,
-    "price": 245.92,
-    "brand": "GlobalGoods",
-    "color": "Blue",
-    "updated": "8/12/2025"
-  },
-  {
-    "id": 6,
-    "name": "Essential Health Max",
-    "category": "Health",
-    "warranty": "1 Year",
-    "stock": 81,
-    "price": 152.03,
-    "brand": "GlobalGoods",
-    "color": "Red",
-    "updated": "8/5/2025"
-  },
-  {
-    "id": 7,
-    "name": "Fashion Plus Wear",
-    "category": "Fashion",
-    "warranty": "6 Months",
-    "stock": 84,
-    "price": 248.04,
-    "brand": "FashionHub",
-    "color": "Blue",
-    "updated": "8/14/2025"
-  },
-  {
-    "id": 8,
-    "name": "Fashion Plus Wear",
-    "category": "Fashion",
-    "warranty": "6 Months",
-    "stock": 99,
-    "price": 160.29,
-    "brand": "FashionHub",
-    "color": "Blue",
-    "updated": "8/4/2025"
-  },
-  {
-    "id": 9,
-    "name": "Vintage Decor Classic",
-    "category": "Home Decor",
-    "warranty": "6 Months",
-    "stock": 64,
-    "price": 177.28,
-    "brand": "GlobalGoods",
-    "color": "Blue",
-    "updated": "8/3/2025"
-  }
+    {
+        "id": 1,
+        "name": "Mechanical Keyboard",
+        "price": 1050.05,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": false,
+        "rating": 4.1
+    },
+    {
+        "id": 2,
+        "name": "Power Bank",
+        "price": 1370.71,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 2.4
+    },
+    {
+        "id": 3,
+        "name": "Smartwatch",
+        "price": 336.43,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 1.4
+    },
+    {
+        "id": 4,
+        "name": "Smart LED Bulb",
+        "price": 314.25,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": true,
+        "rating": 2.1
+    },
+    {
+        "id": 5,
+        "name": "Coffee Maker",
+        "price": 1463.26,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": true,
+        "rating": 2.5
+    },
+    {
+        "id": 6,
+        "name": "Gaming Chair",
+        "price": 376.44,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": false,
+        "rating": 2.4
+    },
+    {
+        "id": 7,
+        "name": "Coffee Maker",
+        "price": 1037.19,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 3.8
+    },
+    {
+        "id": 8,
+        "name": "Gaming Chair",
+        "price": 1491.42,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 2.8
+    },
+    {
+        "id": 9,
+        "name": "Air Fryer",
+        "price": 482.68,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": true,
+        "rating": 3.0
+    },
+    {
+        "id": 10,
+        "name": "USB-C Charger",
+        "price": 1293.95,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": false,
+        "rating": 3.2
+    },
+    {
+        "id": 11,
+        "name": "LED Monitor",
+        "price": 22.79,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": true,
+        "rating": 3.0
+    },
+    {
+        "id": 12,
+        "name": "HD Webcam",
+        "price": 1397.75,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": true,
+        "rating": 4.1
+    },
+    {
+        "id": 13,
+        "name": "Gaming Chair",
+        "price": 668.82,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": true,
+        "rating": 3.2
+    },
+    {
+        "id": 14,
+        "name": "4K TV",
+        "price": 631.09,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 4.1
+    },
+    {
+        "id": 15,
+        "name": "External Hard Drive",
+        "price": 911.09,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 4.6
+    },
+    {
+        "id": 16,
+        "name": "Power Bank",
+        "price": 1461.29,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": true,
+        "rating": 5.0
+    },
+    {
+        "id": 17,
+        "name": "VR Headset",
+        "price": 1094.89,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": false,
+        "rating": 4.9
+    },
+    {
+        "id": 18,
+        "name": "USB-C Charger",
+        "price": 216.75,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": true,
+        "rating": 3.4
+    },
+    {
+        "id": 19,
+        "name": "LED Monitor",
+        "price": 128.68,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 4.8
+    },
+    {
+        "id": 20,
+        "name": "Smart Thermostat",
+        "price": 1474.7,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": false,
+        "rating": 1.1
+    },
+    {
+        "id": 21,
+        "name": "Drone with Camera",
+        "price": 1358.96,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 4.5
+    },
+    {
+        "id": 22,
+        "name": "Action Camera",
+        "price": 222.11,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": false,
+        "rating": 3.2
+    },
+    {
+        "id": 23,
+        "name": "Coffee Maker",
+        "price": 1436.34,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": false,
+        "rating": 2.5
+    },
+    {
+        "id": 24,
+        "name": "HD Webcam",
+        "price": 860.6,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": true,
+        "rating": 4.8
+    },
+    {
+        "id": 25,
+        "name": "Noise Cancelling Headphones",
+        "price": 1254.52,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": false,
+        "rating": 2.7
+    },
+    {
+        "id": 26,
+        "name": "Power Bank",
+        "price": 138.37,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": true,
+        "rating": 1.8
+    },
+    {
+        "id": 27,
+        "name": "Electric Kettle",
+        "price": 258.47,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": false,
+        "rating": 1.8
+    },
+    {
+        "id": 28,
+        "name": "Smartphone",
+        "price": 1072.37,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 1.0
+    },
+    {
+        "id": 29,
+        "name": "HD Webcam",
+        "price": 738.06,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": true,
+        "rating": 1.5
+    },
+    {
+        "id": 30,
+        "name": "Gaming Laptop",
+        "price": 710.2,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": true,
+        "rating": 2.5
+    },
+    {
+        "id": 31,
+        "name": "Portable Projector",
+        "price": 1065.34,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 4.5
+    },
+    {
+        "id": 32,
+        "name": "Air Fryer",
+        "price": 1038.26,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": true,
+        "rating": 3.3
+    },
+    {
+        "id": 33,
+        "name": "Noise Cancelling Headphones",
+        "price": 818.89,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": true,
+        "rating": 1.9
+    },
+    {
+        "id": 34,
+        "name": "Portable SSD",
+        "price": 258.96,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": false,
+        "rating": 4.9
+    },
+    {
+        "id": 35,
+        "name": "Gaming Chair",
+        "price": 68.9,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": true,
+        "rating": 2.8
+    },
+    {
+        "id": 36,
+        "name": "4K TV",
+        "price": 1167.34,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 4.7
+    },
+    {
+        "id": 37,
+        "name": "Bluetooth Speaker",
+        "price": 1076.36,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": false,
+        "rating": 4.3
+    },
+    {
+        "id": 38,
+        "name": "Smart Home Hub",
+        "price": 664.44,
+        "currency": "USD",
+        "category": "Gaming",
+        "in_stock": true,
+        "rating": 4.1
+    },
+    {
+        "id": 39,
+        "name": "Gaming Chair",
+        "price": 723.95,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": true,
+        "rating": 2.8
+    },
+    {
+        "id": 40,
+        "name": "Smart Home Hub",
+        "price": 109.23,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": false,
+        "rating": 1.3
+    },
+    {
+        "id": 41,
+        "name": "Smartwatch",
+        "price": 1346.08,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 3.5
+    },
+    {
+        "id": 42,
+        "name": "Bluetooth Speaker",
+        "price": 25.63,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": true,
+        "rating": 1.4
+    },
+    {
+        "id": 43,
+        "name": "Smart Thermostat",
+        "price": 548.39,
+        "currency": "USD",
+        "category": "Electronics",
+        "in_stock": false,
+        "rating": 1.9
+    },
+    {
+        "id": 44,
+        "name": "Air Fryer",
+        "price": 1353.35,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": false,
+        "rating": 3.9
+    },
+    {
+        "id": 45,
+        "name": "Smart Home Hub",
+        "price": 1016.31,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": true,
+        "rating": 1.8
+    },
+    {
+        "id": 46,
+        "name": "Portable Bluetooth Printer",
+        "price": 1210.34,
+        "currency": "USD",
+        "category": "Smart Devices",
+        "in_stock": true,
+        "rating": 1.1
+    },
+    {
+        "id": 47,
+        "name": "Gaming Laptop",
+        "price": 361.07,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": false,
+        "rating": 2.2
+    },
+    {
+        "id": 48,
+        "name": "Gaming Laptop",
+        "price": 1287.46,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": true,
+        "rating": 4.9
+    },
+    {
+        "id": 49,
+        "name": "Power Bank",
+        "price": 662.07,
+        "currency": "USD",
+        "category": "Accessories",
+        "in_stock": false,
+        "rating": 2.2
+    },
+    {
+        "id": 50,
+        "name": "Action Camera",
+        "price": 1287.97,
+        "currency": "USD",
+        "category": "Home Appliances",
+        "in_stock": false,
+        "rating": 1.6
+    }
 ]
